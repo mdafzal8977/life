@@ -71,17 +71,6 @@
         border: 5px solid #fff;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
       }
-      #animate_img {
-        position: absolute;
-        border: none;
-        box-shadow: none;
-        width: 150px;
-        opacity: 1;
-        height: 150px;
-        margin-top: 100px;
-        left: -50%;
-        animation: slideRight 2s ease-in-out infinite;
-      }
 
       @keyframes slideRight {
         0% {
@@ -94,11 +83,6 @@
       @media (min-width: 370px) {
         img {
           width: 25%;
-        }
-        #animate_img {
-          margin-top: 40px;
-          width: 50px;
-          height: 50px;
         }
       }
     </style>
@@ -114,15 +98,15 @@
       <div id="main-content" style="display: none">
         <h1 class="animated-love">Thanks for coming into my life🎯❤️</h1>
         <div class="image-container">
-          <img src="./public/afzal.jpg" alt="Afzal" />
+          <img src="./public/afzal.jpg" alt="Afzal" title="Afzal" />
           <img
             class="animate__animated animate__bounceOutRight"
             id="animate_img"
             src="./public/heart.jpg"
-            title="This heart is for you Sadaf"
-            alt=""
+            title="This heart is only for you Sadaf!"
+            style="height: 50px; width: 50px; margin-top: 50px;"
           />
-          <img src="./public/sadaf.jpg" alt="Sadaf" />
+          <img src="./public/sadaf.jpg" alt="Sadaf" title="Sadaf" />
         </div>
         <h2>
           "I am yearning for the day when I can call you my pious wife, united
